@@ -1,0 +1,6 @@
+<?php
+
+setcookie('teste', 'augusto');
+
+
+?>

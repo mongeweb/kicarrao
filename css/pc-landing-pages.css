@@ -1,0 +1,249 @@
+@media screen {
+/*	INI	RESET	*/
+html { color:#000;font-size:62.4%; *font-size:60.5%;font-family:"Trebuchet MS", Verdana, Helvetica, sans-serif;}
+html,body {width:100%;height:100%;}
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,img,dd,dl,dt,li,ol,ul 
+{border:0;margin:0;padding:0;text-align:left;float:left;}
+table {border-collapse:collapse;border-spacing:0;}
+a img,
+:link img,
+:visited img { border: 0; }
+ol,
+ul { list-style:none; }
+q:before,q:after,blockquote:before,blockquote:after { content: ""; }
+a,a:visited,a:link {text-decoration:none;color:#000;text-decoration:underline;}
+a:hover { color:#9A0200; }
+h1,h2,h3,h4,h5,h6,p,span,small,big,strong { font-size: 1em; }
+h1,h2,h3,h4,h5 { font-weight: bold; }
+h6 { font-weight:normal; }
+.IR {float:left;position:relative;text-indent:-666em;overflow:hidden;}
+.NO { display:none; }
+/*	END	RESET	*/
+div#topo,
+div#topo-1,
+div#topo-2,
+div#topo-3,
+div#conteudo { width:100%; }
+/*	INI	TOPO	*/
+div.tudo{width:100%;}
+div#topo, div#topo-1, div#topo-2, div#topo-3 {
+background-color:#FFF;
+margin:5.9em 0 0;
+*float:none;
+}
+div div.lp-itens {
+width:970px;
+padding:0 0 0 20px;
+margin:auto;
+float:none
+}
+div#topo div.lp-itens div#topo-titulo {
+width:30em;
+height:25.6em;
+}
+div#topo div.lp-itens div#topo-titulo h1 {
+color:#0B466D;
+font-size:4em;
+line-height:1em;
+padding:0.49em 0 0;
+}
+div#topo div.lp-itens div#topo-titulo p { font-size:1.6em; }
+div#topo-1 div.lp-itens div#topo-titulo {
+width:45em;
+height:21em;
+}
+div#topo-1 div.lp-itens div#topo-titulo h1 {
+color:#0B466D;
+font-size:5em;
+line-height:1em;
+padding:0.49em 0 0;
+}
+div#topo-2 div.lp-itens div#topo-titulo {
+width:45em;
+height:21em;
+}
+div#topo-2 div.lp-itens div#topo-titulo h1 {
+color:#0B466D;
+font-size:5em;
+line-height:1em;
+padding:0.49em 0 0;
+}
+div#topo-3 div.lp-itens div#topo-titulo {
+width:45em;
+height:21em;
+}
+div#topo-3 div.lp-itens div#topo-titulo h1 {
+color:#0B466D;
+font-size:4.2em;
+line-height:1em;
+padding:0.49em 0 0;
+}
+div#topo-3 div.lp-itens div#topo-titulo p { font-size:1.6em; }
+div#topo-3 div.lp-itens div#topo-caminhao {
+width:50em;
+height:2em;
+background:url(../icon/pc-lp-topo-caminhao.jpg) no-repeat right center;
+color:#a7aea7;
+text-align:right;
+margin:0.2em 0 0;
+padding:21.4em 2em 0 0;
+}
+div#topo div.lp-itens div#topo-carro {
+width:62.1em;
+min-width:607px;
+height:24.5em;
+min-height:228px;
+background:url(../icon/pc-lp-topo-carro.jpg) no-repeat right center;
+color:#a7aea7;
+text-align:right;
+margin:0.2em 0 0;
+padding:1em 2em 0;
+}
+div#topo-1 div.lp-itens div#topo-moto {
+width:50em;
+height:2em;
+background:url(../icon/pc-lp-topo-moto.jpg) no-repeat left center;
+color:#a7aea7;
+text-align:right;
+margin:0.2em 0 0;
+padding:20em 2em 0 0;
+}
+div#topo-2 div.lp-itens div#topo-titulo h1 {
+width:10em;
+font-size:4em;
+}
+div#topo-2 div.lp-itens div#topo-cross {
+width:55em;
+height:24.5em;
+min-height:228px;
+background:url(../icon/pc-lp-topo-cross.jpg) no-repeat left center;
+color:#a7aea7;
+text-align:right;
+margin:0.2em 0 0;
+padding:1em 2em 0 0;
+}
+div#topo-2 div.lp-itens div#topo-titulo { width:35em; }
+div#topo-2 div.lp-itens div#topo-titulo dl {
+width:17em;
+padding:3em 0 0;
+}
+div#topo-2 div.lp-itens div#topo-titulo dl dd ul li {
+width:8em;
+font-size:1.4em;
+font-weight:700;
+list-style:none;
+background:url(../icon/pc-lp-bull.gif) no-repeat 0 0.5em;
+padding:0 0 0 0.8em;
+clear:both;
+}
+/*	END	TOPO	*/
+/*	INI	CONTEUDO	*/
+
+div#conteudo {
+background-color:#F4F4F4;
+margin:0 auto 36px;
+padding:60px 0 36px 0;
+width:100%;
+}
+div#conteudo div.lp-itens div h2 {
+width:17em;
+color:#0B466D;
+font-size:2.4em;
+padding:0 0 0.6em;
+}
+div#conteudo div.lp-itens div h2 strong {
+color:#9A0200;
+font-size:1.1em;
+}
+div#conteudo div.lp-itens div.conteudo-box-1 { width:44em; }
+div#conteudo div.lp-itens div.conteudo-box-2 {
+width:50em;
+padding:0 0 0 2em;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 {
+width:100%;
+background:#f4f4f4;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 h2 {
+width:100%;
+font-size:2.6em;
+}
+div#conteudo div.lp-itens div h3.box-descricao-h3 {
+font-size:2.5em;
+padding:0;
+}
+dl.lp-c-o-1 { width:9.5em; }
+dl.lp-c-o-2 { width:10.5em; }
+dl.lp-c-o-3 { width:7em; }
+dl.lp-c-o-4 { width:11em; }
+div#conteudo div.lp-itens div div.conteudo-box-ofertas dl {
+height:15em;
+overflow:hidden;
+margin:0 0 2em;
+}
+div#conteudo div.lp-itens div div.conteudo-box-ofertas dl.lp-c-o-5 {
+width:14em;
+height:3em;
+overflow:visible;
+}
+div#conteudo div.lp-itens div div.conteudo-box-ofertas dl.lp-c-o-6 {
+width:10.5em;
+height:23em;
+}
+div#conteudo div.lp-itens div div.conteudo-box-ofertas dl dd ul li {
+width:7em;
+font-size:1.3em;
+}
+div#conteudo div.lp-itens div div dl dt {
+width:100%;
+font-size:1.6em;
+font-weight:700;
+clear:both;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 dl {
+width:105px;
+overflow:hidden;
+margin:0 0 2em;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 dl dt {
+width:100px;
+font-size:1.5em;
+font-weight:700;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 dl dd ul li {
+width:100px;
+font-size:1.2em;
+}
+div#conteudo div.lp-itens div.conteudo-box-3 dl.dl1 { width:75px; }
+div#conteudo div.lp-itens div.conteudo-box-3 dl.dl2,
+ div#conteudo div.lp-itens div.conteudo-box-3 dl.dl2 dt { width:150px; }
+div.conteudo-box-descricao h3 {
+padding:3em 0 0;
+height:2em;
+color:#0B466D;
+font-size:2em;
+}
+div.conteudo-box-descricao p {
+width:32em;
+font-size:1.3em;
+}
+a.conteudo-box-busca,
+ a.conteudo-box-busca:link {
+font-size:1.3em;
+width:35em;
+position:relative;
+float:left;
+}
+/*	END	CONTEUDO	*/
+/*	INI	BARRA	*/
+div.tudo div.barra{width:100%;background-color:#F4F4F4;border-bottom:1px solid #DADADA;height:59px;position:absolute;top:0;left:0;}
+div.tudo div.barra p{font-size:1.4em;float:left;padding:8px 0 0 0;}
+div.tudo div.barra p a{color:#fff;text-decoration:underline;}
+div.tudo div.barra p a:hover{text-decoration:underline;}
+div.tudo div.barra div.esquerda{float:left;margin-top:16px;}
+div.tudo div.barra div.direita{float:right;margin-top:20px;font-size:14px;color:#9A0200;}
+div.tudo div.barra div.direita a{font-size:14px;font-weight:normal;color:#9A0200;}
+div.tudo div.barra div.direita a:hover{text-decoration:none;}
+/*	END	BARRA	*/
+
+}

@@ -1,0 +1,810 @@
+@charset "utf-8";
+.login {
+	/*position:absolute;*/
+	left:20px;
+	top:180px;
+	width:355px;
+	height:219px;
+	z-index:3;
+}
+
+#menulista {
+	position:absolute;
+	left:96px;
+	top:15px;
+	min-height:20px;
+	z-index:1;
+    text-align: center;
+    display: none;
+    background-color: #CCCCCC;
+    width: 108px;
+	border:#000000 1px solid;
+}
+
+tr.menutr td{
+}
+
+div.menuwrap{
+	background: none repeat scroll 0 0 #FFFFFF;
+    border-bottom: 1px solid #313131;
+    float: left;
+    height: 20px;
+    position: relative;
+    z-index: 2;
+}
+#menulistaProd {
+	position:absolute;
+	padding-top: 2px;
+	top: 20px;
+    z-index: 0;
+	min-height:20px;
+    text-align: left;
+    display: none;
+    background-color: #CCCCCC;
+    width: 167px;
+	border:#000000 1px solid;
+}
+#menulistaVeiculos {
+	position:absolute;
+	padding-top: 2px;
+	top: 20px;
+    z-index: 0;
+	min-height:20px;
+    text-align: left;
+    display: none;
+    background-color: #CCCCCC;
+    width: 65px;
+	border:#000000 1px solid;
+}
+#menulistaClientes {
+	position:absolute;
+	padding-top: 2px;
+	top: 20px;
+    z-index: 0;
+	min-height:20px;
+    text-align: left;
+    display: none;
+    background-color: #CCCCCC;
+    width: 126px;
+	border:#000000 1px solid;
+}
+
+#menulistaNoticias {
+	position:absolute;
+	padding-top: 2px;
+	top: 20px;
+    z-index: 0;
+	min-height:20px;
+    text-align: left;
+    display: none;
+    background-color: #CCCCCC;
+    width: 126px;
+	border:#000000 1px solid;
+}
+
+div#clientesMenu1{
+	background: none repeat scroll 0 0 #CCCCCC;
+    border: 1px solid #000000;
+    display: none;
+    left: 76px;
+    padding-top: 10px;
+    position: absolute;
+    top: 10px;
+    z-index: 0;
+	width:74px;
+}
+
+#user_logout{
+	position:absolute;
+	left:703px;
+	top:79px;
+	width:143px;
+	height:44px;
+	z-index:2;
+	text-align:right;
+	vertical-align:bottom;
+}
+
+body, form {
+	margin-left: auto;
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	font-family: Arial, Helvetica, sans-serif;
+	text-decoration: none;
+    width: 960px;
+}
+td, div {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+a {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+a:hover {
+/*background-color:#333333;*/
+color:#999999;
+}
+
+.menu_link
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+    font-weight: bold;
+	display:block;
+	float:left;
+	height:22px;
+}
+.menulista_link{
+	margin-bottom:2px;
+	margin-top:2px;
+}
+
+.menulista_link a{
+	color:#000;
+	padding-left:10px;
+	padding-right:10px;
+}
+
+.menulista_link:hover
+{
+	background-color:#666666;
+}
+.menulista_link:hover a
+{
+	color: #FFFFFF;
+	text-decoration:underline;
+}
+.menu_link_userelogout
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #666666;
+}
+.menu_link2
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #000000;
+}
+.transparencia {
+	filter:progid:DXImageTransform.Microsoft.Alpha(Opacity=75);
+	-moz-opacity : 0.75;
+}
+
+input, textarea, select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #000000;
+}
+
+.boxDourado {
+	padding: 2px;
+	color:#FFFFFF;
+	border: 1px solid #FFFFFF;
+	background-color: #666666;
+	font-weight:bold;
+	width: 62px;
+	white-space: nowrap;	
+}
+a { text-decoration:none;}
+.titulo { font-size:18px; font-weight:bold}
+.formulario {
+	position:absolute;
+	left:565px;
+	top:311px;
+	width:223px;
+	height:140px;
+	z-index:1;
+	background-color:#0099CC;
+	border:1px solid #FFFFFF;
+}
+
+.botaoDourado {
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid #FFFFFF;
+	background-color: #000000;
+	cursor:pointer;
+}
+.linhacinza {
+background-color:#F0F0F0;
+}
+
+.tipo_news {
+	font-size: 10px;
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu
+{
+    /*position:absolute;
+    left: 16px;
+    top: 130px;*/
+    position: relative;
+    top: -21px;
+    left: 0;
+}
+
+.erro {
+position:absolute;left: 15px; top: 86px;
+color: #FFFFFF;
+background-color: #FF0000;
+}
+.mgr {
+position:absolute; left:9px; top:169px; width:679px; z-index:1;
+}
+
+.conteudo {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	background-color:#CCCCCC;
+}
+
+
+.conteudodestaque {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+	color:#000000;
+	background-color:#FFFF00;
+}
+
+.listagem{
+	font-size: 10px;
+	color: #FFFFFF;
+	text-decoration: none;
+	border: 1px solid #484848;
+	background-color: #666666;	
+}
+
+.listagem:hover{
+	font-size: 10px;
+	color: #666666;
+	text-decoration: none;
+	background-color:transparent;
+	border: none;
+}
+
+.tabela{
+	border: 1px solid #000000;
+}
+.txtbranco {color:#FFFFFF}
+.txtcinza {color:#333333}
+.txtpreto {color:#000000}
+#dicas {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+#produtos {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+#medicamentos {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+.topo_lista_branco{
+	font-family:verdana;
+	font-size:14px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.topo_lista_pqno{
+	font-family:verdana;
+	font-size:11px;
+	color:#000000;
+	font-weight:bold;
+}
+.topo_lista_preto{
+	font-family:verdana;
+	font-size:14px;
+	color:#000000;
+	font-weight:bold;
+}
+.topo_lista_categoria
+{
+	font-family:verdana;
+	font-size:11px;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+.topo_lista_categoria_vermelho
+{
+	font-family:verdana;
+	font-size:11px;
+	color:#FF0000;
+	font-weight:bold;
+}
+
+#instituto {
+	visibility:hidden;
+	position:absolute;
+	width:180px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+
+#congressos {
+	visibility:hidden;
+	position:absolute;
+	width:180px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+
+/*#news {
+	visibility:hidden;
+	position:absolute;
+	width:100px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}*/
+
+#links {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+#revistas {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+#links_legislacao {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+#produtos {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+
+#artigos {
+	visibility:hidden;
+	position:absolute;
+	width:150px;
+	z-index:2;
+	background-color:#ffffff;
+	left:0px;
+}
+
+#linhaTexto {
+	display:none;
+}
+
+.pag {
+    color: #000000;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+div#contentFormNovoEdita,
+div#contentVisualiza, 
+div#contentFormSelects {
+	position: relative;
+	color: #333333;
+}
+
+div#contentFormNovoEdita legend,
+div#contentVisualiza legend, 
+div#contentFormSelects legend {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333333;
+    padding-left: 20px;
+}
+
+div#contentFormNovoEdita form,
+div#contentVisualiza form,
+div#contentFormSelects form {
+    margin-top: 20px;
+}
+
+div#contentFormNovoEdita fieldset,
+div#contentVisualiza fieldset,
+div#contentFormSelects fieldset {
+	/*border: none;*/
+}
+
+div#contentFormNovoEdita form fieldset div,
+div#contentVisualiza form fieldset div,
+div#contentFormSelects form fieldset div,
+div#contentFormNovoEdita fieldset ul.contentField li {
+    padding: 2px 0 2px 0;
+    /*width: 786px;*/
+    /*width: 510px;*/
+	/*width:700px;*/
+	/*width:800px;*/
+	width:auto;
+    vertical-align: middle;
+}
+
+/* para grupos */
+div#contentFormSelects form fieldset div {
+    width: 100%;
+}
+
+div#contentFormNovoEdita fieldset div.contentEditor {
+    width: auto;
+}
+
+div#contentFormNovoEdita fieldset ul.contentField,
+div#contentFormNovoEdita fieldset div.contentField {
+    text-align: left;
+    padding: 0;
+    margin: 0;
+	width: 325px;
+    float: right;
+    /*background: #FF8040;*/
+}
+
+div#contentFormNovoEdita fieldset ul.contentField { list-style: none; }
+div#contentFormNovoEdita fieldset ul.contentField li { margin: 0; line-height: 20px; }
+
+/* para grupos */
+div#contentFormSelects form fieldset div.selectContentL, 
+div#contentFormSelects form fieldset div.selectContentR {
+    width: 40%;
+    height: 100px;
+    padding: 5px;
+}
+
+div#contentFormSelects form fieldset div.selectContentL {
+    float: left;
+    /*background: red;*/
+}
+
+div#contentFormSelects form fieldset div.buttonContent {
+    padding-top: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+	width: 17.9%;
+    float: left;
+}
+
+div#contentFormSelects form fieldset div.selectContentR {
+    float: right;
+    /*background: fuchsia;*/
+}
+
+div#contentFormNovoEdita form fieldset div label,
+div#contentVisualiza form fieldset div label,
+div#contentFormSelects form fieldset div label,
+div#contentFormNovoEdita fieldset ul.contentField li strong {
+    text-align: right;
+	display: inline-block;
+	width: 175px;
+    /*height: 20px;*/
+    line-height: 20px;
+    font-weight: bold;
+    font-size: 12px;
+	float: left;
+    margin-right: 10px;
+    /*background: #FFCC00;*/
+}
+div#contentFormNovoEdita fieldset ul.contentField li strong { float: none; width: 105px; }
+
+div#contentFormNovoEdita fieldset ul.labelL li strong { text-align: left; width: auto; }
+
+/* para grupos */
+div#contentFormSelects form fieldset div label {
+	width: 40px;
+}
+
+div#contentFormSelects form fieldset div.selectContentL label,
+div#contentFormSelects form fieldset div.selectContentR label {
+    text-align: center;
+	display: block;
+    float: none;
+    width: auto;
+    padding: 4px;
+    margin: 0;
+}
+
+div#contentFormNovoEdita form fieldset div input[type="text"], 
+div#contentFormNovoEdita form fieldset div input[type="password"],
+div#contentFormNovoEdita form fieldset div input[type="file"],
+div#contentFormNovoEdita form fieldset div textarea, 
+div#contentFormNovoEdita form fieldset div select,
+div#contentFormSelects form fieldset div input[type="text"],
+div#contentFormSelects form fieldset div select {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+	border: 1px solid #333333;
+    width: 285px;
+}
+
+
+
+div#contentFormNovoEdita form fieldset div input[type="checkbox"],
+div#contentFormNovoEdita form fieldset div input[type="radio"] {
+    padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #333333;
+	background-color: #FFFFFF;
+}
+
+div#contentFormNovoEdita form fieldset div textarea {
+	height: 100px;
+}
+
+/* 	PARA USUÁRIOS  */
+div#contentFormNovoEdita form fieldset div.contentLogin input[type="text"],
+div#contentFormNovoEdita form fieldset div.contentAltPass input[type="password"] {
+	width: 262px;
+}
+
+div#contentFormNovoEdita fieldset div.contentMeter {
+    padding: 0;
+    margin: 0;
+	width: 287px;
+}
+
+div#contentFormNovoEdita fieldset div.contentMeter span.testresult {
+	font-weight: bold;
+	font-size: 13px;
+	font-family: arail,helvetica,san-serif;
+	color: #666;
+	padding: 0;
+	margin: 3px 0 0 0;
+}
+
+div#contentFormNovoEdita fieldset div.contentMeter span.testresult span {
+	padding: 6px;
+	margin: 0;
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.shortPass {
+	background: #edabab;
+	border: 1px solid #bc0000;
+	display: block;
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.shortPass span {
+	
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.badPass {
+	background: #edabab;
+	border:1px solid #bc0000;
+	display: block;
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.badPass span {
+	
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.goodPass {
+	background: #ede3ab;
+	border: 1px solid #bc9f00;
+	display: block;
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.goodPass span {
+
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.strongPass {
+	background: #d3edab;
+	border: 1px solid #73bc00;
+	display: block;
+}
+div#contentFormNovoEdita fieldset div.contentMeter span.strongPass span {
+
+}
+/* 	FIM - PARA USUÁRIOS  */
+
+div#contentFormNovoEdita fieldset ul.medium li strong,
+div#contentFormNovoEdita fieldset ul.contentField li strong.medium,
+div#contentFormNovoEdita form fieldset div input[type="text"].medium {
+    width: 142px;
+}
+
+div#contentFormNovoEdita form fieldset div input[type="text"].data {
+	width: 95px;
+}
+
+div#contentFormNovoEdita fieldset ul.tiny li strong,
+div#contentFormNovoEdita fieldset ul.contentField li strong.tiny,
+div#contentFormNovoEdita form fieldset div input[type="text"].tiny {
+	width: 45px;
+}
+
+div#contentFormNovoEdita form fieldset div input[type="text"].contador {
+	width: 42px;
+}
+
+div#contentFormNovoEdita form fieldset div input[type="text"].vtiny {
+	width: 15px;
+}
+
+div#contentFormNovoEdita form fieldset div span, 
+div#contentVisualiza form fieldset div span {
+    line-height: 20px;
+    /*border: 1px solid;*/
+}
+
+div#contentFormNovoEdita form fieldset div p.info,
+div#contentVisualiza form fieldset div p.info,
+div#contentFormNovoEdita form fieldset div span.info,
+div#contentVisualiza form fieldset div span.info {
+	color: #999999;
+    text-align: justify;
+}
+
+/* para grupos */
+div#contentFormSelects form fieldset div.selectContentL select,
+div#contentFormSelects form fieldset div.selectContentR select {
+    width: 100%;
+    height: 70%;
+}
+
+div#contentFormNovoEdita form fieldset div.contentButton {
+    text-align: right;
+    width: 238px;
+	float:left;
+}
+
+/* para grupos */
+div#contentFormSelects form fieldset div.contentGroupButton p {
+	text-align: center;
+    /*background: #0033CC;*/
+}
+
+/* para características */
+div#contentFormNovoEdita form fieldset div#conteirnerCaracs {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#contentFormNovoEdita form fieldset div#conteirnerCaracs h6 {
+    margin: 0;
+}
+
+div#contentFormNovoEdita form fieldset div#conteirnerCaracs div#contentCaracs {
+    margin-top: 10px;
+    width: 773px;
+    /*height: 200px;
+    overflow: auto;*/
+}
+
+div#contentFormNovoEdita form fieldset div#conteirnerCaracs div#contentCaracs div.caracsColumn {
+    /*float: left;
+    height: 22px;*/
+    display: inline-block;
+    width: 385px;
+}
+
+div#contentFormNovoEdita form fieldset div#conteirnerCaracs div#contentCaracs div.caracsColumn strong {
+    display: inline-block;
+    text-align: right;
+    width: 60px;
+    padding-right: 5px;
+}
+
+.jquery-notify-bar {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:32768;
+    background-color:#efefef;
+    font-size:18px;
+    color:#000;
+    text-align:center;
+    font-family: Arial, Verdana, sans-serif;
+    padding:20px 0px;
+    border-bottom:1px solid #bbb;
+    cursor: pointer;
+}
+.jquery-notify-bar.error {
+    color:#f00;
+    background-color:#fdd;
+}
+.jquery-notify-bar ul {
+    font-size: 12px;
+    margin: 0;
+}
+.jquery-notify-bar.success {
+    color:#060;
+    background-color:#BBFFB6;
+}
+.jquery-notify-bar.info {
+    background: #EDE3AB;
+    color: #666666/*#BC9F00*/;
+}
+.notify-bar-close {
+    position:absolute;
+    left:95%;
+    font-size:11px;
+}
+
+span.obrigatorio{
+	color:#F00;
+	font-weight:bold;
+}
+
+span#obs{
+	color:#F00; 
+	font-size:10px; 
+	font-style:italic;
+}
+div.caractbloco{
+    float:left;
+    width:700px;
+}
+div.caractbloco table{
+    border-collapse:collapse;
+}
+td.caractitem{
+    /*border: 1px solid #B1B3B6;*/
+    display: inline-block;
+    margin-bottom: 4px;
+    /*min-height: 20px;*/
+    /*min-width: 111px;*/
+    padding: 0;
+}
+table.caractinput{
+    border-spacing:0;
+    border-collapse:collapse;
+    float: left; 
+    /*width: 111px;*/
+    width:228px;
+}
+table.caractinput td{
+    padding:0;
+    font-size: 10px !important;
+    font-weight: normal !important;
+}
+td.caractitem label{
+    line-height: inherit;
+    padding: 0 6px;
+    text-align: left !important;
+    width:186px;
+    font-size: 10px !important;
+    font-weight: normal !important;
+}
+td.caractitem input[type="checkbox"]{
+    height:14px;
+    margin:0;
+}
